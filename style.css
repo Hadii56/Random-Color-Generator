@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: black; */
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 3s;
+}
+
+.title {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 34px;
+    color: #070707;
+    font-weight: 800;
+
+}
+
+.main {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 600px;
+    height: 100px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+button {
+    width: 90%;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 25px;
+}
